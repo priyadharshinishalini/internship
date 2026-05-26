@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design Example</title>
+  <style>
+    body {
+      background: rgb(241, 123, 205); /* default background */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+    h2 {
+      color: rgb(18, 18, 164);
+    }
+    p {
+      font-size: 18px;
+      color: #333;
+    }
+    /* Responsive rule */
+    @media (max-width:600px) {
+      body {
+        background: rgb(218, 99, 99); /* background changes on small screens */
+      }
+      h2 {
+        color: white;
+      }
+      p {
+        color: #fff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h2>Responsive Design</h2>
+  <p>Resize the browser window to see the background color change.</p>
+</body>
+</html>
