@@ -1,0 +1,114 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Stack</title>
+    <style>
+        body {
+            background: #7dc9d3;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 2px;
+            padding: 30px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            color: #96156f;
+        }
+        /* Tabs */
+        .tabs {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            font-weight: bold;
+        }
+        .tab {
+            padding: 12px 25px;
+            background:#111827;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .tab.active {
+            background: #ce5bf1;
+        }
+        .container {
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+            gap: 20px;
+        }
+        .card {
+            background: #131c2e;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translate(-5px);
+            box-shadow: 0 0px 15px #5fd4ff;
+        }
+        .card img {
+            width: 100px;
+            height: 70px;
+            object-fit: contain;
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            font-size: 25px;
+            margin: 10px 0;
+            color: rgb(235, 129, 58);
+        }
+    </style>
+</head>
+<body>
+    <h1>My <span>Tech Stack</span></h1>
+    <!-- Tabs -->
+    <div class="tabs">
+        <div class="tab active">All (25)</div>
+        <div class="tab">Languages (7)</div>
+        <div class="tab">Tools (8)</div>
+        <div class="tab">Libraries (5)</div>
+        <div class="tab">Databases (4)</div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="images/c.jpeg">
+            <h2>C</h2>
+        </div>
+        <div class="card">
+            <img src="images/c++.jpeg">
+            <h2>C++</h2>
+        </div>
+        <div class="card">
+            <img src="images/python.jpeg">
+            <h2>Python</h2>
+        </div>
+        <div class="card">
+            <img src="images/java.jpeg">
+            <h2>Java</h2>
+        </div>
+        <div class="card">
+            <img src="images/Html.jpeg">
+            <h2>HTML</h2>
+        </div>
+        <div class="card">
+            <img src="images/css.jpeg">
+            <h2>CSS</h2>
+        </div>
+        <div class="card">
+            <img src="images/React.jpeg">
+            <h2>React</h2>
+        </div>
+        <div class="card">
+            <img src="images/Mysql.jpeg">
+            <h2>MySQL</h2>
+        </div>
+    </div>
+</body>
+</html>
