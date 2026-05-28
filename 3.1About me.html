@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0a0f1c;
+        color: white;
+    }
+    .about h1 {
+        font-size: 32px;
+        margin-bottom: 6px;
+        padding: 10px;
+    }
+    .container {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .left img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 20px;
+    }
+    .right {
+        flex: 1;
+        margin-bottom: 10px;
+        color: #da7ff3;
+        line-height: 1.6;
+    }
+    .info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 20px 0;
+    }
+    .box {
+        background: #111827;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 5px 0 0;
+        color: #eb8b8b;
+        font-size: 14px;
+    }
+   .btn {
+        background: #61d1e8;
+        border: none;
+        padding: 12px 25px;
+        border-radius: 8px;
+        color: rgb(48, 4, 4);
+        cursor: pointer;
+        font-size: 16px;
+    }
+</style>
+<body>
+    <section class="about">
+        <h1 style="color:rgb(92, 236, 160);">About Me</h1>
+            <p style="color:rgb(90, 176, 3); font-size:30px;">A passionate engineer dedicated to solving complex problems through innovative solutions.</p>
+        <div class="container">
+            <div class="left">
+                <img src="images/study.jpg" alt="Engineer">
+            </div>
+            <div class="right">
+                <h2 style="color:rgb(236, 149, 99);">Professional Engineer</h2>
+                <p>
+                    I'm a dedicated engineering student with a passion for innovation and problem-solving.
+                    My academic journey has equipped me with strong technical skills and a deep understanding
+                    of engineering principles that I apply to real-world challenges.
+                </p>
+                <div class="info">
+                    <div class="box">
+                        <h4 style="color:rgb(224, 239, 114);">Education</h4>
+                        <p>B.S. Mechanical Engineering</p>
+                    </div>
+                    <div class="box">
+                        <h4 style="color:rgb(224, 239, 114);">Experience</h4>
+                        <p>3+ Years</p>
+                    </div>
+                    <div class="box">
+                        <h4 style="color:rgb(224, 239, 114);">Projects</h4>
+                        <p>10+ Completed</p>
+                    </div>
+                    <div class="box">
+                        <h4 style="color:rgb(224, 239, 114);">Awards</h4>
+                        <p>5 Recognitions</p>
+                    </div>
+                </div>
+                <button class="btn">Learn More →</button>
+            </div>
+    </section>
+</body>
+
+</html>

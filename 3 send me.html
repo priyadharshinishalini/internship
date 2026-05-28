@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .form-box {
+        width: 700px;
+        background: rgb(244, 130, 130);
+        margin: auto;
+        padding: 40px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    input,
+    textarea {
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+        border: 1px solid #560a0a;
+        border-radius: 15px;
+        font-size: 18px;
+    }
+    .row {
+        display: flex;
+        gap: 20px;
+    }
+    button {
+        background: rgb(190, 243, 93);
+        color: rgb(39, 2, 2);
+        border: none;
+        padding: 12px 25px;
+        border-radius: 25px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+</style>
+<body>
+    <div class="form-box">
+        <h1 style="text-align:center; color:rgb(103, 38, 38); font-style:oblique; font-size:40px;">Send me a message
+        </h1>
+        <input type="text" placeholder="Enter Your Name / Campany *">
+        <div class="row">
+            <input type="email" placeholder="Enter Your Email *">
+            <input type="text" placeholder="Enter Phone Number *">
+        </div>
+        <textarea rows="5" placeholder="Write Message..."></textarea>
+        <button>Send Message</button>
+    </div>
+</body>
+</html>
